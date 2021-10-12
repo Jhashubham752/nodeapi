@@ -1,0 +1,149 @@
+.success-error {
+    background: 'green';
+    color: #fff;
+    font-weight: 900;
+    padding: 8px;
+    margin-bottom: 20px;
+}
+.danger-notice {
+    background: #e87474;
+    color: #fff;
+    font-weight: 900;
+    padding: 8px;
+    margin-bottom: 20px;
+}
+.error-icon {
+	border-radius: 23px;
+    border: 0px;
+    background-color: #e87474;
+    color: white;
+    font-size: 15px;
+    font-weight: 900;
+    float: right;
+}
+
+.btn-spinner {
+  pointer-events: none;
+  cursor: default;
+  color: transparent;
+  position: relative;
+}
+
+.btn-spinner::after,
+.btn-spinner::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-top: -0.75rem;
+  margin-left: -0.75rem;
+  border-radius: 100%;
+  border: 0.3rem solid transparent;
+}
+
+.btn-spinner::before {
+  border-color: rgba(0, 0, 0, 0.15);
+}
+
+.btn-spinner::after {
+  border-color: white transparent transparent;
+  -webkit-animation: btn-spin 0.6s linear;
+          animation: btn-spin 0.6s linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes btn-spin {
+  from {
+    transform: rotate(0);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes btn-spin {
+  from {
+    transform: rotate(0);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+.productimages{
+  width: 100px;
+  height:100px;
+  padding:4px;
+}
+.productimage{
+  width: 80px;
+  height:80px;
+}
+.pull-right {
+  float: right !important;
+}
+.closeModal {
+    background-color: #000;
+    border-color: #000;
+    color: #fff;
+}
+.scrollmodal{
+  overflow-y: scroll;
+  height: inherit;
+  overflow-x: hidden;
+  padding:20px;
+}
+.Box_image-container{
+   z-index: 999!important;
+}
+.fields_array {
+    margin-top: 30px;
+}
+.react-tabs__tab--selected {
+    background-color: #007bff !important;
+    color: #fff !important;
+}
+
+.myInput {
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 30px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+.myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-top: -12px;
+  position: absolute;
+  z-index: 999999;
+}
+
+ul.myUL li {
+    background: #fff;
+    padding: 9px;
+    padding-left: 20px;
+    display: list-item;
+    border-bottom: 1px solid #d0c5c5;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,.4);
+    width: 285px;
+}
+ul.myUL li a{
+  text-decoration:none;
+}
+.checkContact {
+    background: #007bff;
+    color: #fff;
+    padding: 9px;
+}
+.checkContactdiv {
+    margin-top: 39px;
+    margin-left: -8px;
+    margin-right: 57px;
+}
